@@ -151,7 +151,7 @@ This documentation includes:
 ### Environment Setup
 1. Create a `.env.production` file in the root directory:
 ```env
-DATABASE_URL="postgresql://user:password@localhost:5432/your_db"
+DATABASE_URL="mysql://root:@localhost:3306/your_db"
 NEXTAUTH_URL="https://your-domain.com"
 NEXTAUTH_SECRET="your-secret-key"
 GOOGLE_CLIENT_ID="your-google-client-id"
